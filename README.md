@@ -26,3 +26,18 @@ Dijkstra's Algorithm usinig Fibonacci Heap
 ### Binary Heap Implementation
 * ```g++ DijkstraBinHeap.cpp BinaryHeap.cpp -o bin```
 * ```./bin.exe graph.dat```
+
+## Quick Analysis:- 
+*  The running time complexity of Dijkstra's algorithm when implemented using Binary Heap is:-  
+  ```O(VlogV+ElogV) = O(ElogV)```  
+  ```VlogV``` to perform **Extract_Min**   
+  ```ElogV``` to perform **Decrease Key**  
+
+
+*  The running time complexity of Dijkstra’s algorithm when implemented using Fibonacci Heap is:-  
+```O(|E| + |V| log |V|)```  
+```VlogV``` to perform **Extract_Min**  
+```E``` to perform **Decrease Key**      
+
+
+*The latter is smaller for fairly dense graphs (i.e. graphs where V = o(E))*
