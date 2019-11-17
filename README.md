@@ -41,3 +41,9 @@ Dijkstra's Algorithm usinig Fibonacci Heap
 
 
 *The latter is smaller for fairly dense graphs (i.e. graphs where V = o(E))*
+
+## Some Important Links
+* [Dijkstra's algorithm and priority queue good explanation](https://people.maths.bris.ac.uk/~csxam/teaching/dsa/dijkstra.pdf)
+* [Fibonacci Heap explanation](https://iq.opengenus.org/fibonacci-heap/)
+* [Fibonacci Heap Visualisation](https://www.cs.usfca.edu/~galles/visualization/FibonacciHeap.html)
+
